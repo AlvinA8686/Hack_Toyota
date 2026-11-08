@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Toyota Next Move",
+    "slug": "toyota-next-move",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F7F7F2",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hackutd.toyotanextmove"
+    },
+    "android": {
+      "package": "com.hackutd.toyotanextmove"
+    },
+    "web": {
+      "name": "Toyota Next Move",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-status-bar"
+    ]
+  }
+}
