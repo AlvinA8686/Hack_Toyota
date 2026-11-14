@@ -1,0 +1,146 @@
+[
+  {
+    "key": "2022-Avalon",
+    "year": 2022,
+    "model": "Avalon",
+    "sourcePage": "https://www.fusztoyota.com/2022-toyota-avalon-in-st-louis/",
+    "sourceImage": "https://di-uploads-pod29.dealerinspire.com/loufusztoyota/uploads/2022/03/limited.png",
+    "filename": "2022-avalon.png"
+  },
+  {
+    "key": "2022-Camry",
+    "year": 2022,
+    "model": "Camry",
+    "sourcePage": "https://www.pearsontoyotascion.com/trim-levels-of-the-2022-toyota-camry.htm",
+    "sourceImage": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2022/camry/le/2532/1j9/1.png?bg=fff&fm=png&q=90&w=1240",
+    "filename": "2022-camry.png"
+  },
+  {
+    "key": "2022-Corolla",
+    "year": 2022,
+    "model": "Corolla",
+    "sourcePage": "https://www.pearsontoyotascion.com/trim-levels-of-the-2022-toyota-corolla.htm?srsltid=AfmBOorHpL-30FVcDbLyjGR2I0LIgfnBXD3J5U4KBA2VPEfrpDY7Dt4y",
+    "sourceImage": "https://www.toyota.com/imgix/content/dam/toyota/jellies/max/2022/corolla/l/1832/040/1.png?bg=fff&fm=png&q=90&w=1764",
+    "filename": "2022-corolla.png"
+  },
+  {
+    "key": "2022-Highlander",
+    "year": 2022,
+    "model": "Highlander",
+    "sourcePage": "https://www.kbb.com/toyota/highlander/2022/xle-sport-utility-4d/",
+    "sourceImage": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/52005/2022-Toyota-Highlander-front_52005_032_1856x866_089_cropped.png?downsize=300%3A%2A&interpolation=high-quality",
+    "filename": "2022-highlander.png"
+  },
+  {
+    "key": "2023-Prius",
+    "year": 2023,
+    "model": "Prius",
+    "sourcePage": "https://www.cars.com/research/toyota-prius-2023/",
+    "sourceImage": "https://platform.cstatic-images.com/in/v2/stock_photos/693beba1-4031-4ead-b298-90e0df8d4aec/4ad2092f-6c93-4857-b7e6-1fb2aeee3f5c.png",
+    "filename": "2023-prius.png"
+  },
+  {
+    "key": "2023-Tacoma",
+    "year": 2023,
+    "model": "Tacoma",
+    "sourcePage": "https://www.carvana.com/vehicle/3127761",
+    "sourceImage": "https://vexstockimages.fastly.carvana.io/stockimages/2023_TOYOTA_TACOMA%20DOUBLE%20CAB_TRD%20OFF-ROAD%20PICKUP%204D%205%20FT_RED_stock_desktop_1920x1080.png?v=1704390764.058",
+    "filename": "2023-tacoma.png"
+  },
+  {
+    "key": "2024-Camry Hybrid",
+    "year": 2024,
+    "model": "Camry Hybrid",
+    "sourcePage": "https://www.kbb.com/toyota/camry-hybrid/2024/specs/",
+    "sourceImage": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/51559/2024-Toyota-Camry%20Hybrid-front_51559_032_1840x735_040_cropped.png?downsize=391%3A%2A",
+    "filename": "2024-camry-hybrid.png"
+  },
+  {
+    "key": "2024-Corolla Cross",
+    "year": 2024,
+    "model": "Corolla Cross",
+    "sourcePage": "https://www.woodlandtoyota.ca/en/new-catalog/toyota/2024-toyota-corolla-cross-le-fwd-id26234",
+    "sourceImage": "https://img.sm360.ca/ir/w640h480/images/newcar/ca/2024/toyota/corolla-cross/le-fwd/suv/2024_toyota_corolla-cross_le-ta_photos_02.png",
+    "filename": "2024-corolla-cross.png"
+  },
+  {
+    "key": "2024-Corolla",
+    "year": 2024,
+    "model": "Corolla",
+    "sourcePage": "https://www.suntoyota.com/vehicle/new-2024-toyota-corolla-le-1-79l-5yfb4mdexrp107439/",
+    "sourceImage": "https://media.dealervenom.com/jellies/Toyota/Corolla/C442320_3T3_Front.png?auto=compress%2Cformat&fit=clamp&h=480&w=640",
+    "filename": "2024-corolla.png"
+  },
+  {
+    "key": "2024-RAV4",
+    "year": 2024,
+    "model": "RAV4",
+    "sourcePage": "https://www.mccluretoyota.com/en/new-catalog/toyota/2024-toyota-rav4-xle-id25737",
+    "sourceImage": "https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2024/toyota/rav4/xle-/suv/exteriorColors/2024_toyota_rav4-2-xle-awd_ext_032_0218.png",
+    "filename": "2024-rav4.png"
+  },
+  {
+    "key": "2024-RAV4 Hybrid",
+    "year": 2024,
+    "model": "RAV4 Hybrid",
+    "sourcePage": "https://www.morganautogroup.com/inventory/new-2024-toyota-rav4-hybrid-xse-awd-4d-sport-utility-4t3e6rfv9ru168580/",
+    "sourceImage": "https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/mBFi9OSLIrMvcMtCOJZ-kqIsycX7El0joKvwDs-xeZhUjojCGV20l03kXnWkZT5W_ToBcxmo4VABnCveokT9D8qRGxT192O891quZKeaofX5lNQ_qC5DntCOOHQT3FuOIA2ZwamvY8LErbkfVHCDjYRRWN64cxE0C53p4nBRRUFULxAh0VObDQ/cc_2024TOS200017_01_640_2QY.png",
+    "filename": "2024-rav4-hybrid.png"
+  },
+  {
+    "key": "2024-Sequoia",
+    "year": 2024,
+    "model": "Sequoia",
+    "sourcePage": "https://www.toyotahawaii.com/2024Sequoia.html",
+    "sourceImage": "https://www.toyotahawaii.com/on/demandware.static/-/Sites-Servco_master/default/dw4996824f/images/model/Sequoia/360/smoked-mesquite/23_Sequoia_Limited_SmokedMesquite_02.png",
+    "filename": "2024-sequoia.png"
+  },
+  {
+    "key": "2024-Tundra",
+    "year": 2024,
+    "model": "Tundra",
+    "sourcePage": "https://www.moderntoyotaofasheboro.com/2024-toyota-tundra-asheboro-nc/",
+    "sourceImage": "https://di-uploads-pod38.dealerinspire.com/moderntoyotaofasheboro/uploads/2024/05/2024-Toyota-Tundra-SR5.png",
+    "filename": "2024-tundra.png"
+  },
+  {
+    "key": "2024-bZ4X",
+    "year": 2024,
+    "model": "bZ4X",
+    "sourcePage": "https://www.jimnortontoyota.com/vehicle/New/2024/Toyota/bZ4X/JTMAAAAA0RA047504/",
+    "sourceImage": "https://media.dealervenom.com/jellies/Toyota/bZ4X/C447854_089_Front.png?auto=compress%2Cformat",
+    "filename": "2024-bz4x.png"
+  },
+  {
+    "key": "2025-Camry",
+    "year": 2025,
+    "model": "Camry",
+    "sourcePage": "https://www.moderntoyotaofasheboro.com/2025-toyota-camry-asheboro-nc/",
+    "sourceImage": "https://di-uploads-pod38.dealerinspire.com/moderntoyotaofasheboro/uploads/2024/10/2025-Toyota-Camry-SE.png",
+    "filename": "2025-camry.png"
+  },
+  {
+    "key": "2025-Tacoma",
+    "year": 2025,
+    "model": "Tacoma",
+    "sourcePage": "https://www.group1auto.com/inventory/new-2025-toyota-tacoma-sr5-4wd-double-cab-5-bed-at-3tmlb5jn1sm094081/",
+    "sourceImage": "https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/Qg1UtSC9kzeOxMdGt7uCmG8aDr8pJfuhHAOBDAeRkC3ijCoOEv0UOqWixUJWzG2ffjYDccAEkoLfl9eoHYwkTyHuHaiaXUHhYP6kNAZgMgRTQynOhycd3FtWKvn90FNU93q8wfLwHriwdWCKryBlU856_r3-ELzxzB-mj-o9t5vyzpXzdRt7AfGNPsRmPxKJ8unZi4PLrvs/cc_2025TOT092003358_01_640_8W7.png",
+    "filename": "2025-tacoma.png"
+  },
+  {
+    "key": "2025-Grand Highlander",
+    "year": 2025,
+    "model": "Grand Highlander",
+    "sourcePage": "https://www.hawkesburytoyota.com/en/new-catalog/toyota/2025-toyota-grand-highlander-xle-id28803",
+    "sourceImage": "https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2025/toyota/grand-highlander/xle/suv/exteriorColors/2025_toyota_grand-highlander_xle_ext_001_0218.png",
+    "filename": "2025-grand-highlander.png"
+  },
+  {
+    "key": "2024-Highlander",
+    "year": 2024,
+    "model": "Highlander",
+    "sourcePage": "https://www.lancastertoyota.com/2024-highlander/",
+    "sourceImage": "https://di-enrollment-api.s3.amazonaws.com/toyota/models/2024/highlander/trims/limited_2024_highlander.png",
+    "filename": "2024-highlander.png"
+  }
+]
