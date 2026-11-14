@@ -54,7 +54,7 @@ Results include reasons, alternatives, cost assumptions, and **Compare all**. Op
 
 ## How it works
 
-- **Native UI:** Expo SDK 58, React Native, TypeScript, React Native Web, SVG vehicle artwork, and the 12 supplied genie sprites. Native haptics enhance quiz selections and the reveal where supported.
+- **Native UI:** Expo SDK 58, React Native, TypeScript, React Native Web, 18 bundled vehicle catalog photos covering all 20 demo profiles, and the 12 supplied genie sprites. Native haptics enhance quiz selections and the reveal where supported.
 - **Adaptive quiz:** seven base preference topics, relevant repair/upgrade/payment/mileage/replacement questions, and an early support route. Revising an earlier answer clears later answers so the branching path stays coherent.
 - **Decision engine:** deterministic local rules check account eligibility and exact calendar windows before ranking by stated preferences. It uses no external LLM, API key, network inference, or hidden model confidence percentage. Judging answers are not runtime recommendation inputs.
 - **Financial comparisons:** supplied values and clearly identified arithmetic; missing quotes stay unknown. Monthly relief is shown with total-interest consequences. Market value advantage is not labeled guaranteed savings.
@@ -73,7 +73,7 @@ src/domain/types.ts             Typed account, scenario, question, and result mo
 src/domain/engine.test.ts        Meaningful domain and safeguard tests
 src/data/profiles.json          Bundled synthetic customer/account/scenario data
 src/screens/                    Discover, quiz, reveal, comparison, garage, saved plans
-src/ui/                         Shared theme, components, genie, vehicle artwork
+src/ui/                         Shared theme, components, genie, model photos
 src/storage.ts                  Local saved-plan persistence and load validation
 assets/genie/                   All 12 supplied Toyota genie poses
 reference/                      Original data pack, retained for traceability

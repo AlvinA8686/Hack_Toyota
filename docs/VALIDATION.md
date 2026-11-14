@@ -12,6 +12,14 @@ Verified on November 8, 2026, using the supplied November 7 synthetic account sn
 
 Screenshots: [desktop home](screenshots/home-desktop.png) and [iPhone-sized reveal](screenshots/reveal-iphone.png).
 
+## Vehicle photo and navigation update
+
+- TypeScript and the web release export pass after replacing the generic vehicle artwork.
+- All 20 profiles resolve to one of 18 bundled, matching model/year photos; the original PNG collection was visually inspected.
+- At a 390 × 844 viewport, checked the Highlander photo on the home card and garage, then switched to Maya and confirmed her RAV4 photo appears.
+- Entered the garage from the home account card and from the My Toyota tab. The labeled Home back button returned to Discover in both cases.
+- No browser console errors appeared during these checks. See the [updated garage screenshot](screenshots/garage-with-vehicle.png) and [image source notes](VEHICLE_IMAGES.md).
+
 Dependency audit: npm reports five moderate affected packages, with no high or critical findings. These trace to two upstream tooling advisories in `glob` and `minimatch`, through Expo CLI/fingerprinting: [glob cancellation](https://github.com/advisories/GHSA-3g3m-2fjr-6pw4) and [minimatch pattern amplification](https://github.com/advisories/GHSA-g3hv-75wg-m249). npm's proposed automatic fix would downgrade Expo across major versions to SDK 53; it was not applied because it would break the verified SDK 58 dependency set. Review compatible upstream fixes before production distribution.
 
 Still needed before distribution: physical iPhone testing (including VoiceOver and larger text), native signing/provisioning, and any real Toyota integration. The demo saves plans locally and does not submit applications, send messages, book appointments, or alter accounts.

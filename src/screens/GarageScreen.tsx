@@ -1,8 +1,8 @@
 import React from 'react';
-import { ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { Profile, money } from '../domain';
 import { Button, Icon, InfoRow, Pill, SectionTitle } from '../ui/components';
-import { CarIllustration } from '../ui/CarIllustration';
+import { VehiclePhoto } from '../ui/VehiclePhoto';
 import { colors } from '../ui/theme';
 
 const SNAPSHOT = '2026-11-07';
@@ -20,7 +20,6 @@ export function GarageScreen({ profile, onSwitch, onRestart }: {
   onRestart: () => void;
 }) {
   const { customer, account, vehicle, situation } = profile;
-  const { width } = useWindowDimensions();
   const lease = account.contract_type === 'lease';
   const buyout = profile.options.find(option => option.option_id === 'BUYOUT')?.upfront_cost
     ?? (account.residual_value === null ? null : account.residual_value + 350);
@@ -37,9 +36,8 @@ export function GarageScreen({ profile, onSwitch, onRestart }: {
           <Text style={styles.accountId}>{customer.customer_id} · Demo</Text>
         </View>
         <View style={styles.carStage}>
-          <View style={styles.carHalo} />
-          <CarIllustration width={Math.min(width - 92, 350)} height={176} color="#A9B6AB" />
-          <Text style={styles.illustration}>Illustration</Text>
+          <VehiclePhoto vehicle={vehicle} height={176} />
+          <Text style={styles.illustration}>Model photo · color and trim may vary</Text>
         </View>
         <Text style={styles.modelYear}>{vehicle.model_year} TOYOTA</Text>
         <Text style={styles.vehicleName}>{vehicle.model}</Text>
@@ -145,11 +143,10 @@ const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
   body: { padding: 24, gap: 24, paddingBottom: 38 },
   section: { gap: 14 },
-  vehicleCard: { backgroundColor: '#EAF0E6', borderRadius: 26, padding: 20, overflow: 'hidden' },
+  vehicleCard: { backgroundColor: colors.white, borderWidth: 1, borderColor: colors.line, borderRadius: 26, padding: 20, overflow: 'hidden' },
   vehicleHeading: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 },
   accountId: { fontSize: 11, fontWeight: '500', color: colors.muted },
   carStage: { alignItems: 'center', justifyContent: 'center', minHeight: 190, marginVertical: 4 },
-  carHalo: { position: 'absolute', width: 205, height: 155, borderRadius: 100, backgroundColor: '#DDE7D7', top: 18 },
   illustration: { position: 'absolute', bottom: 0, right: 0, fontSize: 9, color: '#788576' },
   modelYear: { fontSize: 10, fontWeight: '700', letterSpacing: 1.5, color: colors.green, marginTop: 4 },
   vehicleName: { fontSize: 30, lineHeight: 37, fontWeight: '700', color: colors.ink, letterSpacing: -1, marginTop: 5 },
